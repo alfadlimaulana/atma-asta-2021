@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Atma Asta adalah festival musik dan seni terbesar yang diselenggarakan oleh SMAN 8 Bandung" />
+    <meta name="keywords" content="atma, asta, atma asta, sma delapan, pensi, 8, bandung" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style2.css" />
+    <link rel="stylesheet" href="fixed.css" />
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Lato:wght@700&family=Mulish&family=Snippet&display=swap" rel="stylesheet" />
+
+    <!-- icon  -->
+    <link rel="shortcut icon" href="img/favicon.ico" />
+
+    <!-- AoS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <title>Atma Asta</title>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-EESEFMKGDZ"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-EESEFMKGDZ");
+    </script>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand align-midle" href="index.html">
+          <img class="d-inline-block align-text-top nav-logo" src="img/logo.svg" alt="" width="35" height="35" />
+          <img src="img/nav-atma.svg" alt="" width="35" height="35" class="d-inline-block align-text-top" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link" href="live.html">Livestream</a>
+            <a class="nav-link" href="merchandise.html">Merchandise</a>
+            <a class="nav-link" href="history.html">History</a>
+            <a class="nav-link" href="tenant.html">Tenant</a>
+            <a class="nav-link" href="sponsors.html">Sponsors</a>
+            <a class="nav-link" href="media-partners.html">Media Partners</a>
+            <a class="nav-link" href="faq.html">About Us</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- akhir navbar -->
+
+    <!-- background video -->
+    <section id="teaser">
+      <div id="video-teaser" class="player" data-property="{ videoURL:'https://youtu.be/jzIjRCdFFGo', containment:'body', autoPlay:true, mute:true, startAt:0, opacity:1, optimizeDisplay:true, addRaster:true, abundance: 0 }"></div>
+      <div id="info">
+        <div class="container-fluid">
+          <div class="row justify-content-center">
+            <div class="volume-icon"><i id="volume" class="fas fa-volume-mute"></i></div>
+          </div>
+          <div class="row justify-content-center mt-3">
+            <div class="col-10 banner backdrop p-4">
+              <div class="row g-3 align-items-center justify-content-center">
+                <div class="col-12 col-lg-4 countdown" id="countdown">
+                  <div class="container-fluid">
+                    <div class="row justify-content-center">
+                      <div class="col-5 col-sm-2 col-offset-2 time-block flex">
+                        <div id="days">00</div>
+                        <p>days</p>
+                      </div>
+                      <div class="col-5 col-sm-2 col-offset-2 time-block flex">
+                        <div id="hours">00</div>
+                        <p>hours</p>
+                      </div>
+                      <div class="col-5 col-sm-2 col-offset-2 time-block flex">
+                        <div id="minutes">00</div>
+                        <p>minutes</p>
+                      </div>
+                      <div class="col-5 col-sm-2 col-offset-2 time-block flex">
+                        <div id="seconds">00</div>
+                        <p>seconds</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-5 col-lg-6 countdown-title flex text-center"><span>ATMA ASTA LIVE STREAM</span></div>
+                <div class="col-12 col-md-4 col-lg-2 conference-btn flex" id="buttonlive">
+                  <a href="live.html" class="btn text-start">Go to Live</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- akhir background video -->
+
+    <!-- About atma -->
+    <section class="about-bg py-5">
+      <div class="container about">
+        <div class="row justify-content-between text-center p-4 about-content">
+          <div class="col-sm-12 col-lg-4 about-text align-self-center" data-aos="fade-up">
+            <h2>
+              ATMA ASTA<br />
+              2021
+            </h2>
+            <br />
+          </div>
+          <div class="col-sm-12 col-lg-4 about-text align-self-center" data-aos="fade-up">
+            <p>Atma Asta is an annual music and arts festival organized by SMAN 8 Bandung. Comes from 2 sanskrit words, Atma and Asta. Atma means the soul and Asta means eight. Therefore Atma Asta means soul of eight.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- akhir about atma -->
+
+    <!-- slider -->
+    <div id="carouselGallery" class="carousel slide" data-bs-ride="carousel" style="background-color: rgba(99, 186, 198, 0.9)">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselGallery" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselGallery" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselGallery" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselGallery" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carouselGallery" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        <button type="button" data-bs-target="#carouselGallery" data-bs-slide-to="5" aria-label="Slide 6"></button>
+        <button type="button" data-bs-target="#carouselGallery" data-bs-slide-to="6" aria-label="Slide 7"></button>
+        <button type="button" data-bs-target="#carouselGallery" data-bs-slide-to="7" aria-label="Slide 8"></button>
+        <button type="button" data-bs-target="#carouselGallery" data-bs-slide-to="8" aria-label="Slide 9"></button>
+        <button type="button" data-bs-target="#carouselGallery" data-bs-slide-to="9" aria-label="Slide 10"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" style="background-image: url('img/slider/2.JPG')"></div>
+        <div class="carousel-item" style="background-image: url('img/slider/3.JPG')"></div>
+        <div class="carousel-item" style="background-image: url('img/slider/5.JPG')"></div>
+        <div class="carousel-item" style="background-image: url('img/slider/6.JPG'); background-position: center bottom"></div>
+        <div class="carousel-item" style="background-image: url('img/slider/7.JPG')"></div>
+        <div class="carousel-item" style="background-image: url('img/slider/11.JPG')"></div>
+        <div class="carousel-item" style="background-image: url('img/slider/13.JPG')"></div>
+        <div class="carousel-item" style="background-image: url('img/slider/15.JPG')"></div>
+        <div class="carousel-item" style="background-image: url('img/slider/16.JPG')"></div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselGallery" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselGallery" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- akhir slider -->
+
+    <!-- grid gallery -->
+    <div class="container-fluid grid-gallery">
+      <div class="container p-5">
+        <h1 style="font-family: 'bubblegum sans', sans-serif" class="text-center">Check This Out</h1>
+        <div class="row g-3 py-4 justify-content-center">
+          <div class="col-sm-12 col-md-6 col-lg-3">
+            <div class="card h-100" data-aos="fade-up">
+              <div class="ratio ratio-16x9">
+                <iframe
+                  width="560"
+                  height="315"
+                  src="https://www.youtube.com/embed/7WymqdnosNI"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+              </div>
+              <div class="card-body tmst" style="background-color: #ffd596">
+                <h5 class="card-title">COMING SOON!</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-3">
+            <div class="card h-100" data-aos="fade-up">
+              <div class="ratio ratio-16x9">
+                <iframe
+                  width="560"
+                  height="315"
+                  src="https://www.youtube.com/embed/NgZMpMsef-c"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+              </div>
+              <div class="card-body tmst" style="background-color: #9edda9">
+                <h5 class="card-title">ETHERMA : INTRO</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-3">
+            <div class="card h-100" data-aos="fade-up">
+              <div class="ratio ratio-16x9">
+                <iframe
+                  width="560"
+                  height="315"
+                  src="https://www.youtube.com/embed/BMdw92c2I78"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+              </div>
+              <div class="card-body tmst" style="background-color: #f4ffb1">
+                <h5 class="card-title">PENSI OFFLINE ATAU ONLINE?</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-3">
+            <div class="card h-100" data-aos="fade-up">
+              <div class="ratio ratio-16x9">
+                <iframe
+                  width="560"
+                  height="315"
+                  src="https://www.youtube.com/embed/LEHmF3VnIfo"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+              </div>
+              <div class="card-body tmst" style="background-color: #ffd596">
+                <h5 class="card-title">ATMA ASTA 2021 : ETHERMA OFFICIAL TEASER</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- akhir grid gallery -->
+
+    <!-- footer -->
+    <footer class="text-center position-absolute bottom-0 start-50 translate-middle-x">
+      <div class="container footer-content d-flex flex-column align-items-center justify-content-center" style="height: 100%">
+        <h5>FOLLOW US</h5>
+        <div class="icons mx-auto d-flex flex-inline justify-content-evenly">
+          <a href="https://www.instagram.com/atma.asta" target="_blank"><i class="fab fa-instagram-square"></i></a>
+          <a href="https://www.youtube.com/channel/UCAzW7UFyXe5EG_ehdQXt3fA" target="_blank"><i class="fab fa-youtube"></i></a>
+          <a href="https://vt.tiktok.com/ZSJb6g35o/" target="_blank"><i class="fab fa-tiktok"></i></a>
+        </div>
+        <p>©2021. Atma Asta. All Rights Reserved.</p>
+      </div>
+    </footer>
+    <!-- akhir footer -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
+    <!-- background video -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="jquery.mb.YTPlayer.js"></script>
+    <script>
+      navbarbg();
+      navbarcollapse();
+      muteVideo();
+    </script>
+
+    <!-- icon -->
+    <script src="https://kit.fontawesome.com/b249d00227.js" crossorigin="anonymous"></script>
+
+    <!-- AoS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 800,
+      });
+    </script>
+
+  </body>
+</html>

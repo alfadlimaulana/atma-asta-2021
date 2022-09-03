@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <script src="https://kit.fontawesome.com/b249d00227.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style2.css" />
+    <link rel="stylesheet" href="/bootstrap-5.0.1-dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="fixed.css" />
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Mulish&family=Snippet&display=swap" rel="stylesheet" />
+    <!-- akhir font -->
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/favicon.ico" />
+
+    <title>Atma Asta</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand align-midle" href="index.html">
+          <img class="d-inline-block align-text-top nav-logo" src="img/logo.svg" alt="" width="35" height="35" />
+          <img src="img/nav-atma.svg" alt="" width="35" height="35" class="d-inline-block align-text-top" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link" href="live.html">Livestream</a>
+            <a class="nav-link" href="merchandise.html">Merchandise</a>
+            <a class="nav-link" href="history.html">History</a>
+            <a class="nav-link" href="tenant.html">Tenant</a>
+            <a class="nav-link" href="sponsors.html">Sponsors</a>
+            <a class="nav-link" href="media-partners.html">Media Partners</a>
+            <a class="nav-link" href="faq.html">About Us</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- akhir navbar -->
+
+    <!-- grid live -->
+    <section id="live" class="py-5">
+      <div class="container grid-live pt-4">
+        <div class="row g-3 justify-content-center align-items-center">
+          <div class="col-sm-12 col-lg-8">
+            <!-- embed video -->
+            <div class="ratio ratio-16x9 live-embed">
+              <iframe src="https://www.youtube.com/embed/jR-EOWua3mw" title="YouTube video" allowfullscreen></iframe>
+            </div>
+            <!-- akhir embed video -->
+          </div>
+          <div class="col-sm-12 col-lg-4 card bg-transparent text-center live-text border-0">
+            <div class="card-body">
+              <h5 class="card-title">Atma Asta 2021</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Etherma</h6>
+              <a href="https://www.youtube.com/watch?v=jR-EOWua3mw" class="card-link btn" role="button" target="_blank">Watch on Youtube</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- akhir live -->
+
+    <!-- footer -->
+    <footer class="text-center position-absolute bottom-0 start-50 translate-middle-x">
+      <div class="container footer-content d-flex flex-column align-items-center justify-content-center" style="height: 100%">
+        <h5>FOLLOW US</h5>
+        <div class="icons mx-auto d-flex flex-inline justify-content-evenly">
+          <a href="https://www.instagram.com/atma.asta" target="_blank"><i class="fab fa-instagram-square"></i></a>
+          <a href="https://www.youtube.com/channel/UCAzW7UFyXe5EG_ehdQXt3fA" target="_blank"><i class="fab fa-youtube"></i></a>
+          <a href="https://vt.tiktok.com/ZSJb6g35o/" target="_blank"><i class="fab fa-tiktok"></i></a>
+        </div>
+        <p>©2021. Atma Asta. All Rights Reserved.</p>
+      </div>
+    </footer>
+
+    <!-- akhir footer -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <script>
+      navbarbg();
+      navbarcollapse();
+    </script>
+  </body>
+</html>

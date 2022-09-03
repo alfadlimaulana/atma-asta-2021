@@ -1,0 +1,299 @@
+body {
+  position: relative;
+  min-height: 100vh;
+  margin: 0;
+  background-image: url("img/bg.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body::before {
+  content: "";
+  display: block;
+  height: 62.5px;
+}
+
+body::after {
+  content: "";
+  display: block;
+  height: 180px;
+}
+
+.card {
+  border: 0.3em solid white;
+}
+
+/* navbar */
+.navbar {
+  color: #ffffff;
+}
+
+.navbar-bg {
+  background-color: rgba(99, 186, 198, 0.9);
+  transition: 1ms;
+}
+
+.collapse-bg {
+  background-color: rgba(99, 186, 198, 0.9);
+  transition: 1ms;
+}
+
+.navbar-nav {
+  color: #695032;
+  font-family: "Mullish", sans-serif;
+  font-weight: 600;
+  font-size: 0.875rem;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #695032;
+}
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link:focus {
+  color: #eba848;
+}
+
+.navbar-light .navbar-nav .show > .nav-link,
+.navbar-light .navbar-nav .nav-link.active {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.navbar-light .navbar-toggler {
+  color: rgba(75, 51, 22, 0.55);
+  border-color: rgba(105, 80, 50, 0.1);
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28105, 80, 50, 0.7%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+/* video background */
+.video-background {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  margin-top: -62.5px;
+}
+
+/* about atma */
+.about-bg::before {
+  content: "";
+  display: block;
+  width: 210px;
+  height: 17px;
+  position: absolute;
+  background-color: #8ac5c5;
+  border-top-right-radius: 17px;
+  border-top-left-radius: 17px;
+  top: -16px;
+  left: 50%;
+  margin-left: -105px;
+}
+
+.about-bg {
+  position: relative;
+  background-image: url("img/about_bg.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.about-content h2 {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2.375rem;
+  color: #3e4445;
+}
+
+.about-content p {
+  font-family: Mulish;
+  font-weight: 400;
+  color: #131313;
+}
+
+@media screen and (max-width: 1400px) {
+  .about .row {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 24px;
+  }
+}
+
+/* slider */
+#carouselGallery .carousel-item {
+  height: 37.5em;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+/*gallery*/
+.grid-gallery {
+  background-image: url(img/bg.svg);
+  background-size: cover;
+  background-position: center top;
+}
+
+.grid-gallery .card-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-gallery .card-body h5 {
+  font-size: 1rem;
+}
+
+/* danus */
+.card-img-top {
+  width: 100%;
+  height: auto;
+}
+
+.grid-danus .card {
+  text-align: center;
+}
+
+.grid-danus .card-text {
+  text-decoration: none;
+  color: #f23325;
+}
+
+.grid-danus .card-text:hover {
+  text-decoration: none;
+  color: #ee786f;
+}
+
+/*history*/
+.history-logo img {
+  display: block;
+  transition: 0.8s;
+}
+
+.history-logo span {
+  display: block;
+  margin: auto;
+  width: 80%;
+  height: 3px;
+  background-color: white;
+  transform: scaleX(0.02);
+  transition: 0.5s;
+}
+
+.history-logo:hover img {
+  transform: scale(1.1);
+}
+
+.history-logo:hover span {
+  transform: scale(1);
+}
+
+.modal-content {
+  background-image: url("img/bg.svg");
+  background-size: cover;
+  position: center top;
+}
+
+.modal-content .border-grad img {
+  border: 3.5px solid white !important;
+}
+
+/* Sponsor  */
+.sponsor-title,
+.faq-title {
+  font-family: "snippet", sans-serif;
+}
+
+.sponsors {
+  background-color: #f4ffb1;
+  box-sizing: border-box;
+  border-radius: 20px;
+  padding: 1em;
+  height: 150px;
+  border: 0.25rem solid white;
+}
+
+.sponsors img {
+  height: 100%;
+}
+
+.hover-scale-up:hover {
+  transform: scale(1.03);
+}
+
+/* grid faq */
+.grid-faq {
+  margin-top: 30px;
+  font-family: "Roboto", sans-serif;
+}
+
+.grid-faq .card {
+  border-radius: 32px;
+  transition: 0.4s;
+}
+
+.grid-faq .card .card-title {
+  font-weight: bolder;
+}
+
+/*live stream*/
+.grid-live .live-embed {
+  border: 0.22em solid white;
+}
+
+.grid-live .card-title {
+  font-family: "Mullish", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.grid-live a {
+  margin-top: 0.7rem;
+  background-color: #e78e68;
+  box-shadow: 1.6px 1.6px 5px #7d8586;
+}
+
+.grid-live a:hover {
+  transform: scale(1.03);
+}
+
+/* footer */
+footer {
+  height: 180px;
+  background-image: url("img/footer.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+.footer-content {
+  box-sizing: border-box;
+  color: white;
+}
+
+.footer-content h5 {
+  font-family: "snippet";
+}
+
+.icons {
+  width: 15em;
+}
+
+.fab {
+  color: white;
+  font-size: 2.3rem;
+  transition: 0.6s;
+}
+
+.fab:hover {
+  color: rgb(206, 84, 84);
+  transform: scale(1.2);
+}
+
+.footer-content p {
+  padding-top: 1.57em;
+}
